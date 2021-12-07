@@ -1,0 +1,64 @@
+body{
+    background-color: tomato;
+}
+.header{
+    padding-bottom: 50px;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.header p,a{
+    color: white;
+    font-family: 'Mohave', sans-serif;
+}
+.title{
+    font-family: 'Mohave', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 20px;
+    grid-column-gap: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    margin: auto;
+}
+.grid-item img{
+    height: 230px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.grid-content{
+    color: white;
+    font-family: 'Mohave', sans-serif;
+}
+.grid-content h1,a{
+    text-transform: uppercase;
+}
+@media screen and (max-width: 992px){
+    div.grid-container{
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    div.grid-container{
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width: 425px){
+    div.grid-container{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
